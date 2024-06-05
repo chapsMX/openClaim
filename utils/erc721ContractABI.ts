@@ -1,4 +1,4 @@
-export const erc721ContractABI = [
+export const abiContrato = [
   {
     "type": "function",
     "name": "claim",
@@ -58,5 +58,5 @@ export const erc721ContractABI = [
     ],
     "outputs": [],
     "stateMutability": "payable"
-  },
+  }
   ] as const;
