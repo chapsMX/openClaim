@@ -3,7 +3,7 @@ import { FrameRequest } from "@coinbase/onchainkit";
 import { CoinbaseKit } from '../../../../../classes/CoinbaseKit';
 import { getERC721PreparedEncodedData, getFarcasterAccountAddress } from '../../../../../utils/tx-frame';
 import { erc721ContractAddress } from '../../../../../utils/constants';
-import { erc721ContractABI } from '../../../../../utils/erc721ContractABI';
+import { abiContrato } from '../../../../../utils/erc721ContractABI';
 
 export default async function handler(
     req: NextApiRequest,
