@@ -29,10 +29,10 @@ export default async function handler(
 
     // Return the transaction frame
     return res.status(200).json({
-        chainId: "eip155:10",
+        chainId: "eip155:8453",
         method: "eth_sendTransaction",
         params: {
-            abi: erc721ContractABI,
+            abi: abiContrato,
             to: erc721ContractAddress,
             data: data,
             value: "0"
