@@ -1,7 +1,7 @@
 import Head from "next/head";
 
 const title ="Base Frens Mint Frame";
-const HOST_URL = process.env.PUBLIC_URL
+const HOST_URL = process.env.VP
 const imagenFrame = `${HOST_URL}/placeHolder.png`;
 
 export default function Home() {
