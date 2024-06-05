@@ -6,7 +6,7 @@ export class CoinbaseKit {
             body,
             {
                 // Not required, but recommended
-                neynarApiKey: process.env.NEYNAR_API_KEY,
+                neynarApiKey: process.env.NAK,
             }
         );
 
