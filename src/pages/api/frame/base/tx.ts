@@ -29,7 +29,8 @@ export default async function handler(
 
     // Return the transaction frame
     return res.status(200).json({
-        chainId: "eip155:8453",
+        //cambiar a base mainnet
+        chainId: "eip155:84532",
         method: "eth_sendTransaction",
         params: {
             abi: abiContrato,
