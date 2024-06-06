@@ -1,7 +1,7 @@
 import { encode, getContract } from 'thirdweb';
 import { CHAIN, CLIENT, erc721ContractAddress } from './constants';
 import { claimTo } from 'thirdweb/extensions/erc721';
-import { FrameValidationData } from '@coinbase/onchainkit';
+import { FrameValidationData } from '@coinbase/onchainkit/core';
 
 export const getERC721PreparedEncodedData = async (
     walletAddress: string,
