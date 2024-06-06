@@ -1,7 +1,7 @@
 import { NextApiRequest, NextApiResponse } from 'next';
 import { FrameRequest } from "@coinbase/onchainkit";
 import { CoinbaseKit } from '../../../../../classes/CoinbaseKit';
-import { getERC721PreparedEncodedData, getFarcasterAccountAddress } from '../../../../../utils/tx-frame';
+import { getERC721PreparedEncodedData, getFarcasterAccountAddress } from '../../../../../utils/tx-1';
 import { erc721ContractAddress } from '../../../../../utils/constants';
 import { abiContrato } from '../../../../../utils/erc721ContractABI';
 
